@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Learner</title>
+    <link rel="stylesheet" href="">
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:white;
+    background-image: url("");
+
+}
+
+/* text ga aste work atud*/
+.flex {
+  display: flex;
+  align-items: center;
+  position: relative;
+ left: 500px;
+ top: 100px;
+}
+
+h1{
+   position: relative;
+   bottom: 10px;
+}
+
+
+.container {
+  padding: 0%;
+  justify-content: center;
+  background: white;
+}
+
+.Learner-page {
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+}
+
+
+/* for form its a box which holds login and passowrd icons */
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* input text size hechig */
+form input {
+  height: 50px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  padding: 0 15px;
+}
+
+/* login button mata forgot password nadbark space kodad */
+.link {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+
+.link .login {
+  border: none;
+  outline: none;
+  cursor:pointer;
+  background: green;
+  padding: 15px 0;
+  border-radius: 6px;
+  color:white;
+  font-size: 1.25rem;
+  font-weight: 300;
+  transition: 0.2s ease;
+}
+
+
+/* login myal cursur vydur login icon color change atud aduk hover use madteve */
+.link .login:hover {
+  background: #0d65d9;
+}
+
+/* forgot password telag line eded tegetud  none edbek */
+form a {
+  text-decoration: none;
+}
+
+.link .forgot {
+  color: #1877f2;
+  font-size: 0.875rem;
+  background-color: light green;
+}
+
+.link .forgot:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.button {
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button a {
+  padding: 15px 20px;
+  background: #2ab75b;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1.063rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.button a:hover {
+  background: #3ba626;
+}
+
+
+</style>
+</head>
+<body>
+<div class="container-flex">
+    <div class="Learner-page flex">
+       
+        <form action="E:\web technology\bc-image\nav with login link.html">
+            <h1>Welcome to Login page</h1>
+            <input type="email" placeholder="#️⃣Email or phone number" >
+            <input type="password" placeholder="🔒 password" >
+            <div class="link">
+                <button type="submit" class="login">
+                 <a href=""></a> login</button>
+                <a href="#" class="forgot">Forgot password?</a>
+            </div>
+            <hr>
+            <div class="button">
+                <a href="#">Create new account</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+</form>
+</body>
+</html>
